@@ -1,0 +1,236 @@
+/**
+ * Place your custom styles here.
+ */
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+    background: url(../images/textura.png) repeat;
+}
+
+.navbar-brand {
+    padding: 5px 5px; !important;
+
+}
+
+.navbar-brand img{
+    width: 80px; !important;
+    height: auto; !important;
+}
+
+.navbar-default{
+    border-radius: 0px !important;
+    padding: 0 0 3px 0 !important;
+}
+
+.navbar-toggle{
+    margin: 2px !important;
+    padding: 15px 14px;
+    border-radius: 0px !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: white;
+    background-color: black !important;
+}
+
+.navbar-header {
+    float: none;
+}
+
+.navbar-header .brand-text{
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 10px 10px 0px 12px;
+    display: inline-block;
+    width: 30%;
+}
+
+.navbar-toggle {
+    display: block;
+}
+.navbar-collapse.collapse {
+    display: none!important;
+}
+.navbar-nav {
+    float: none!important;
+    text-align: center;
+}
+.navbar-nav>li {
+    float: none;
+}
+.navbar-collapse.collapse.in{
+    display:block !important;
+}
+
+.stage-title{
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    height: 100px;
+    font-size: 2.3rem;
+}
+.stage-title a, .nodelist-title a{
+    color: black;
+    text-decoration: none;
+}
+
+.nodelist-title{
+    height: 90px;
+    padding: 10px;
+}
+
+.nodelist-title a{
+    color: #666666;
+}
+
+#bios .nodelist-title a{
+    color: #FFF;
+}
+
+#footer-brand {
+    height: 55px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightgrey;
+    background: url(../images/textura.png) repeat;
+}
+#footer-brand-inner{
+    width: 35%;
+    margin: 0 auto;
+}
+
+#footer-brand-inner span{
+    padding: 15px;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+#footer-spotify{
+    height: 50px;
+    color:white;
+    padding: 10px;
+}
+
+#foot-year{
+    padding: 20px;
+    color:white;
+}
+
+.footer {
+    margin-top: 0px !important;
+    padding-top: 10px !important;
+    border: none !important;
+}
+
+.page-header {
+    padding:0 !important;
+    border-bottom: none;
+}
+
+.well {
+    min-height: 20px;
+    padding: 0px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.sidebar-second{
+    padding: 30px 0 0 0 !important;
+}
+
+.fb-widget-head{
+    padding: 10px;
+    background: navy;
+    color: white;
+    font-size: 2.5rem;
+    margin: 0 10px 0 0;
+    text-align: center;
+}
+
+.tw-widget-head{
+    padding: 10px;
+    background: deepskyblue;
+    color: white;
+    font-size: 2.5rem;
+    margin: 0 10px 0 0;
+    text-align: center;
+}
+
+.pager__item .button{
+    background-color: orange;
+    color: white;
+    padding: 10px 100px 10px 100px;
+    font-weight: bold;
+    border: solid lightgrey ;
+}
+
+.node-date{
+    float: right;
+    padding-right: 10px;
+}
+
+.node-author-section{
+    padding: 10px;
+    border-top: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 10px;
+}
+
+.node-article-wrapper{
+    padding-right: 10px;
+}
+
+.node-body img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.related_nodes-title{
+    font-size: 3rem;
+}
+
+.related_nodes ul li{
+    padding: 10px 0 10px 0;
+}
+
+.related_nodes ul {
+    color:deepskyblue;
+}
+
+.related_nodes ul li a{
+    color:deepskyblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.newsletter-logo{
+    width: 20%;
+    display: inline-block;
+}
+
+.newsletter-title{
+    display: inline-block;
+    width: 73%;
+    top: 17px;
+    position: absolute;
+}
+
+.newsletter-conditions{
+    font-size: 1.6rem;
+}
+
+.view-display-id-more_news_home{
+    margin-top: 30px;
+}

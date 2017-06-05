@@ -1,0 +1,7 @@
+global-styling:
+  css:
+    theme:
+      css/helpers.css: {}
+      css/style.css: {}
+      css/responsive.css: {}
+

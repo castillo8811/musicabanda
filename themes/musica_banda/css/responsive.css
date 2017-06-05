@@ -1,0 +1,31 @@
+
+@media (max-width: 640px) {
+    .text-xs-left { text-align: left; }
+    .text-xs-right { text-align: right; }
+    .text-xs-center { text-align: center; }
+    .text-xs-justify { text-align: justify; }
+
+    .node-autor, .node-date{display: block !important;float: none !important;}
+    .node-date{font-size: 1.3rem}
+}
+
+@media (min-width: 768px) {
+    .text-sm-left { text-align: left; }
+    .text-sm-right { text-align: right; }
+    .text-sm-center { text-align: center; }
+    .text-sm-justify { text-align: justify; }
+}
+
+@media (min-width: 992px) {
+    .text-md-left { text-align: left; }
+    .text-md-right { text-align: right; }
+    .text-md-center { text-align: center; }
+    .text-md-justify { text-align: justify; }
+}
+
+@media (min-width: 1200px) {
+    .text-lg-left { text-align: left; }
+    .text-lg-right { text-align: right; }
+    .text-lg-center { text-align: center; }
+    .text-lg-justify { text-align: justify; }
+}
