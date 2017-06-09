@@ -234,3 +234,35 @@
 .view-display-id-more_news_home{
     margin-top: 30px;
 }
+
+.view-display-id-biografias_glosario a {
+    margin: 10px 5px 20px 2px;
+    padding: 7px 11px;
+    border: solid 1px gray;
+    background-color: lightgray;
+    color: #000;
+    border-radius: 5px;
+    font-size: 2.5rem;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+.view-display-id-biografias_page h3{
+    margin: 20px 0 0 0px;
+    font-size: 5rem;
+}
+
+.glossary-row-item {
+    padding: 15px 5px 4px 0px;
+    border-bottom: solid 1px lightgray;
+}
+
+.glossary-row-item a{
+    color: deepskyblue;
+}
+
+.contact-message-feedback-form label{
+    display:none;
+}

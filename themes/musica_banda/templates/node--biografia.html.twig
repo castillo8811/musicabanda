@@ -97,7 +97,18 @@ view_mode ? view_mode|clean_class,
   {% endif %}
 
   <div{{ content_attributes.addClass('node-body') }}>
+    <div class="bio-preview mb30">
+       <div class="bio-image col-lg-5">
+      <img src="{{ file_url(node.field_image.entity.uri.value) }}"/>
+       </div>
+      <div class="bio-summary col-lg-7">
+      {{ node.body.summary}}
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="bio-content">
     {{ content.body }}
+    </div>
   </div>
 
 </article>

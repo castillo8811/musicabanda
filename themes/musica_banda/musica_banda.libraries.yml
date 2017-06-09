@@ -4,4 +4,5 @@ global-styling:
       css/helpers.css: {}
       css/style.css: {}
       css/responsive.css: {}
-
+  js:
+      js/musicabanda.js: {}
