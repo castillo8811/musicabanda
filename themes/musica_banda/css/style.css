@@ -58,17 +58,43 @@
 .navbar-collapse.collapse {
     display: none!important;
 }
+
 .navbar-nav {
     float: none!important;
     text-align: center;
+    background-color: black !important;
+    font-size: 2rem;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
 }
+
 .navbar-nav>li {
     float: none;
 }
-.navbar-collapse.collapse.in{
-    display:block !important;
+
+.navbar-nav > li > a {
+    color: white !important;
 }
 
+.navbar-nav > li > a:hover {
+    color: orange !important;
+}
+
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+    background: black;
+    font-size: 2rem;
+    color: white;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+}
+
+.navbar-collapse.collapse {
+    background: black !important;
+}
 .stage-title{
     background-color: orange;
     color: black;
@@ -147,6 +173,40 @@
 
 .sidebar-second{
     padding: 30px 0 0 0 !important;
+}
+
+.region-content{
+    padding-right: 10px;
+}
+
+.path-contact h1{
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.path-contact .form-actions{
+    width: 50%;
+    margin: 0 auto;
+    float: none;
+}
+
+.path-contact #edit-submit{
+    background-color: red;
+    border: none;
+    font-size: 2rem;
+}
+
+.path-contact #edit-preview{
+    background-color: orange;
+    border: none;
+    font-size: 2rem;
+}
+
+.path-contact .btn{
+    margin-top: 10px;
+    width: 150px !important;
 }
 
 .fb-widget-head{
