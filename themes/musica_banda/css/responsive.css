@@ -5,8 +5,62 @@
     .text-xs-center { text-align: center; }
     .text-xs-justify { text-align: justify; }
 
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
     .node-autor, .node-date{display: block !important;float: none !important;}
     .node-date{font-size: 1.3rem}
+
+    .newsletter-title{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .newsletter-logo{
+        width: 23%;
+    }
+
+    #newsletter-subscription .banner{
+        margin: 0 auto;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+        background: transparent;
+    }
+
+    #footer-brand-inner {
+        width: 35%;
+        margin: 0 auto;
+
+    }
+
+    #footer-brand-inner .brand-text{
+        display: none;
+    }
+
+    .footer-spotify-inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #footer-spotify a {
+        font-size: 1.5rem;
+        width: 71%;
+    }
+
+    #footer-social ul {
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 10px;
+    }
+
+    #footer-social ul li {
+        padding: 5px;
+    }
+
+
 }
 
 @media (min-width: 768px) {

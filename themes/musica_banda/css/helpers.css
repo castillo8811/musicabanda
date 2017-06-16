@@ -33,40 +33,46 @@
     height: 64px;
 }
 
-.spotify-logo{
-    background: url('../images/sprite.png') no-repeat -5px -160px;
-    width: 65px;
-    height: 64px;
+.logo-spotify{
+    background: url('../images/sprite.png') no-repeat -5px -370px;
+    width: 70px;
+    height: 55px;
+    display: inline-block;
 }
 
 .fb-logo{
-    background: url('../images/sprite.png') no-repeat -5px -160px;
-    width: 65px;
-    height: 64px;
+    background: url('../images/sprite.png') no-repeat -5px -430px;
+    width: 50px;
+    height: 50px;
+    display: block;
 }
 
 .tw-logo{
-    background: url('../images/sprite.png') no-repeat -5px -160px;
-    width: 65px;
-    height: 64px;
+    background: url('../images/sprite.png') no-repeat -5px -481px;
+    width: 50px;
+    height: 50px;
+    display: block;
 }
 
 .yt-logo{
-    background: url('../images/sprite.png') no-repeat -5px -160px;
-    width: 65px;
-    height: 64px;
+    background: url('../images/sprite.png') no-repeat -5px -532px;
+    width: 50px;
+    height: 50px;
+    display: block;
 }
 
 .insta-logo {
-    background: url('../images/sprite.png') no-repeat -5px -160px;
-    width: 65px;
-    height: 64px;
+    background: url('../images/sprite.png') no-repeat -5px -584px;
+    width: 50px;
+    height: 50px;
+    display: block;
 }
 
 .email-logo{
-    background: url('../images/sprite.png') no-repeat -5px -160px;
-    width: 65px;
-    height: 64px;
+    background: url('../images/sprite.png') no-repeat -5px -637px;
+    width: 50px;
+    height: 50px;
+    display: block;
 }
 
 body {font-family: ProximaNovaRegular, sans-serif;font-size: 10px;font-size: 1.8rem;}

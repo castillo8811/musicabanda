@@ -12,7 +12,9 @@
 .navbar {
     margin-bottom: 0px !important;
     background: url(../images/textura.png) repeat;
+    padding: 0 2px 0 2px !important;
 }
+
 
 .navbar-brand {
     padding: 5px 5px; !important;
@@ -26,7 +28,6 @@
 
 .navbar-default{
     border-radius: 0px !important;
-    padding: 0 0 3px 0 !important;
 }
 
 .navbar-toggle{
@@ -49,7 +50,7 @@
     font-size: 2.5rem;
     padding: 10px 10px 0px 12px;
     display: inline-block;
-    width: 30%;
+    width: 40%;
 }
 
 .navbar-toggle {
@@ -139,7 +140,7 @@
 }
 
 #footer-spotify{
-    height: 50px;
+    height: 75px;
     color:white;
     padding: 10px;
 }
@@ -285,10 +286,11 @@
     width: 73%;
     top: 17px;
     position: absolute;
+    font-size: 2.5rem;
 }
 
 .newsletter-conditions{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .view-display-id-more_news_home{
@@ -325,4 +327,41 @@
 
 .contact-message-feedback-form label{
     display:none;
+}
+
+.footer-spotify-inner{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#footer-spotify a{
+    color: white;
+    font-size: 2rem;
+    margin-top: 2%;
+    text-decoration: none;
+}
+
+#footer-social{
+    background-color: lightgrey;
+    color: dimgray !important;
+}
+
+#footer-social h3{
+    margin: 0 !important;
+}
+
+#footer-social ul{
+    width: 35%;
+    margin: 0 auto;
+}
+
+#footer-social ul li{
+    display: inline-block;
+    padding: 8px;
+}
+
+.node-body iframe{
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
 }
