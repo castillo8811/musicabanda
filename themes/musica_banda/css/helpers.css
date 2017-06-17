@@ -204,6 +204,10 @@ em, i {font-style: italic !important;}
     width: 100%;
 }
 
+.nodeListItem{
+    cursor: pointer;
+}
+
 .pink{background-color: #CC1C4E;}
 .black{background-color: #000}
 .green{background-color: forestgreen}
