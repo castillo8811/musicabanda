@@ -18,6 +18,10 @@
         display: none;
     }
 
+    #bios img{
+        width: 100% !important;
+    }
+
     .bios-title{
         font-size: 2.3rem;
         text-align: center;
