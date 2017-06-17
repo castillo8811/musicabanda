@@ -1,5 +1,5 @@
 <div id="bios" class="pink pall10 mt10">
-  <div class="block PN3r0 text-bold ml10 text-upper">
+  <div class="block PN3r0 text-bold ml10 text-upper bios-title">
     <span class="text-white">Biografías</span><span class="text-yellow"> Más </span><span class="text-white">Recientes</span>
   </div>
   {% for row in rows %}
@@ -11,7 +11,7 @@
     ]
     %}
 
-    <div class="nodeListItem col-lg-4">
+    <div class="nodeListItem col-lg-4 col-xs-12">
       {{ row.content }}
     </div>
   {% endfor %}
