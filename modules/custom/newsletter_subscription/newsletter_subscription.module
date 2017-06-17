@@ -45,7 +45,7 @@ function mailchimp_ajax_form_callback(array &$form, \Drupal\Core\Form\FormStateI
     $message = $messages['status'][0];
 
     if(!$message){
-        $message = '<span id="#mailchimp-signup-subscribe-block-mmb-mc-form-error-message">'.$messages['error'][0].'</span>';
+        $message = '<span id="mailchimp-signup-subscribe-block-mmb-mc-form-error-message">'.$messages['error'][0].'</span>';
         $response->addCommand(new \Drupal\Core\Ajax\ReplaceCommand('#mailchimp-signup-subscribe-block-mmb-mc-form-error-message', $message));
         return $response;
     }
