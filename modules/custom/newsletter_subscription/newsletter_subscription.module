@@ -49,6 +49,6 @@ function mailchimp_ajax_form_callback(array &$form, \Drupal\Core\Form\FormStateI
         $response->addCommand(new \Drupal\Core\Ajax\ReplaceCommand('#mailchimp-signup-subscribe-block-mmb-mc-form-error-message', $message));
         return $response;
     }
-    $response->addCommand(new \Drupal\Core\Ajax\ReplaceCommand('#mailchimp-signup-subscribe-block-mmb-mc-form', $message));
+    $response->addCommand(new \Drupal\Core\Ajax\ReplaceCommand('#newsletter-subscription-form', $message));
     return $response;
 }
