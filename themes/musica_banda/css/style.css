@@ -193,7 +193,7 @@
 }
 
 .path-contact .form-actions {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     float: none;
 }
@@ -202,7 +202,9 @@
     background-color: red;
     border: none;
     font-size: 2rem;
-    width: 70% !important;
+    width: 33% !important;
+    margin: 0 auto;
+    display: block;
 }
 
 .path-contact #edit-preview {
@@ -397,7 +399,7 @@
     margin-top: 10px;
     width: 66%;
     text-transform: uppercase;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 #newsletter-subscription .message {
@@ -417,4 +419,18 @@
 
 #edit-preview{
     display: none;
+}
+
+#player-logo{
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    bottom: 1px;
+    left: -2px;
+}
+
+#player-logo img{
+    width: 62px;
+    height: auto;
 }

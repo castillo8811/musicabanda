@@ -12,4 +12,8 @@ jQuery(document).ready(function(){
         jQuery('#edit-subject-0-value').attr('placeholder', 'Asunto');
         jQuery('#edit-message-0-value').attr('placeholder', 'Cuéntanos, ¿cómo te podemos ayudar?');
     }
+
+    if(jQuery('#edit-mergevars-email').lenght){
+        jQuery('#edit-mergevars-email').attr('placeholder', 'Correo electrónico');
+    }
 });

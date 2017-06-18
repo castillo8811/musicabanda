@@ -194,7 +194,7 @@ em, i {font-style: italic !important;}
 }
 
 .box-banner{
-    margin: 0 10px 10px 0px;
+    margin: 0 0px 10px 0px;
     background: lightgrey;
     padding: 10px;
 
@@ -235,4 +235,8 @@ em, i {font-style: italic !important;}
     background: -webkit-linear-gradient(45deg, #7ec241 0%,#0c9446 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(45deg, #7ec241 0%,#0c9446 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ec241', endColorstr='#0c9446',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.alert{
+    margin: 10px 0 0 0 !important;
 }
