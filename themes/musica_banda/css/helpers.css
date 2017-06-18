@@ -36,7 +36,7 @@
 .logo-spotify{
     background: url('../images/sprite.png') no-repeat -5px -370px;
     width: 70px;
-    height: 55px;
+    height: 57px;
     display: inline-block;
 }
 
@@ -55,14 +55,14 @@
 }
 
 .yt-logo{
-    background: url('../images/sprite.png') no-repeat -5px -532px;
+    background: url('../images/sprite.png') no-repeat -5px -533px;
     width: 50px;
     height: 50px;
     display: block;
 }
 
 .insta-logo {
-    background: url('../images/sprite.png') no-repeat -5px -584px;
+    background: url('../images/sprite.png') no-repeat -5px -585px;
     width: 50px;
     height: 50px;
     display: block;

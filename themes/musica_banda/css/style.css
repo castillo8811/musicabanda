@@ -134,7 +134,7 @@
 }
 
 #footer-brand-inner {
-    width: 35%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -222,7 +222,6 @@
     background: navy;
     color: white;
     font-size: 2.5rem;
-    margin: 0 10px 0 0;
     text-align: center;
 }
 
@@ -253,6 +252,7 @@
     border-top: 2px solid lightgrey;
     border-bottom: 2px solid lightgrey;
     margin-bottom: 10px;
+    font-size: 1.5rem;
 }
 
 .node-article-wrapper {
@@ -336,7 +336,7 @@
 }
 
 .footer-spotify-inner {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -350,6 +350,7 @@
 #footer-social {
     background-color: lightgrey;
     color: dimgray !important;
+    padding-top: 10px;
 }
 
 #footer-social h3 {
@@ -357,8 +358,9 @@
 }
 
 #footer-social ul {
-    width: 35%;
+    width: 36%;
     margin: 0 auto;
+    padding: 5px;
 }
 
 #footer-social ul li {

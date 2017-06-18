@@ -108,6 +108,14 @@
     .text-md-right { text-align: right; }
     .text-md-center { text-align: center; }
     .text-md-justify { text-align: justify; }
+
+    section.col-sm-8{
+        width: 704px !important;
+    }
+
+    .sidebar-second{
+        width: 300px !important;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -115,4 +123,9 @@
     .text-lg-right { text-align: right; }
     .text-lg-center { text-align: center; }
     .text-lg-justify { text-align: justify; }
+
+    .container {
+        max-width: 1024px !important;
+        width: 1024px !important;
+    }
 }
