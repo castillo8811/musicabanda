@@ -508,3 +508,12 @@
     background-color: white !important;
     z-index: 1000!important;
 }
+
+.breadcrumb {
+    margin-bottom: 20px;
+    list-style: none;
+    border-radius: 4px;
+        margin-top: 10px;
+    margin-right: 0 !important;
+    padding: 0 !important;
+}
