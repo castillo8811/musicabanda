@@ -8,8 +8,8 @@ jQuery(document).ready(function(){
     if(jQuery('.contact-message-feedback-form').length) {
         jQuery('#edit-name').attr('placeholder', 'Tu nombre').width(250);
         jQuery('#edit-mail').attr('placeholder', 'Tu correo electrónico').width(250);
-        jQuery('#edit-field-numero-de-telefonico-0-value').attr('placeholder', 'Número Telefónico').width(250);
+        jQuery('#edit-field-numero-telefonico-0-value').attr('placeholder', 'Número Telefónico').width(250);
         jQuery('#edit-subject-0-value').attr('placeholder', 'Asunto');
-        jQuery('#edit-message-0-value').attr('placeholder', 'Cuéntanos, cómo te podemos ayudar?');
+        jQuery('#edit-message-0-value').attr('placeholder', 'Cuéntanos, ¿cómo te podemos ayudar?');
     }
 });

@@ -202,12 +202,14 @@
     background-color: red;
     border: none;
     font-size: 2rem;
+    width: 70% !important;
 }
 
 .path-contact #edit-preview {
     background-color: orange;
     border: none;
     font-size: 2rem;
+    display: none;
 }
 
 .path-contact .btn {
@@ -409,4 +411,8 @@
     display: block;
     color: red;
     margin-bottom: 10px;
+}
+
+#edit-preview{
+    display: none;
 }
