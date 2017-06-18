@@ -52,7 +52,7 @@
     font-size: 2.5rem;
     padding: 10px 10px 0px 12px;
     display: inline-block;
-    width: 40%;
+    width: 35%;
 }
 
 .navbar-toggle {
@@ -438,4 +438,73 @@
 #player-logo img{
     width: 62px;
     height: auto;
+}
+
+#social-shares{
+    height: 50px;
+    left: 0;
+    right: 0;
+    z-index: 1000 !important;
+}
+
+#social-shares-inner{
+    margin: 0 auto;
+}
+
+#social-shares-inner img{
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+
+#fb-share{
+    width: 33%;
+    height: 50px;
+    background-color: darkblue;
+    background: darkblue url(../images/btn_share_facebook.png) no-repeat;
+    background-position: center;
+    float: left;
+}
+
+#tw-share{
+    width: 33%;
+    height: 50px;
+    background-color: deepskyblue;
+    background: deepskyblue url(../images/btn_share_twitter.png) no-repeat;
+    background-position: center;
+    float: left;
+}
+
+#email-share{
+    width: 33%;
+    height: 50px;
+    background-color: darkred;
+    float: left;
+}
+
+#whatsapp-share{
+    width: 33%;
+    height: 50px;
+    background-color: darkgreen;
+    background: darkgreen url(../images/btn_share_whats_app.png) no-repeat;
+    background-position: center;
+    float: left;
+}
+
+#social-shares a{
+    width: 100px;
+    height: 70px;
+    display: inline-block;
+}
+
+.node-head-text{
+    display: inline-block;
+    font-size: 2rem;
+}
+
+#navbar{
+    left: 0;
+    right: 0;
+    background-color: white !important;
+    z-index: 1000!important;
 }

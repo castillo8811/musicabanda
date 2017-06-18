@@ -16,4 +16,15 @@ jQuery(document).ready(function(){
     if(jQuery('#edit-mergevars-email').lenght){
         jQuery('#edit-mergevars-email').attr('placeholder', 'Correo electrónico');
     }
+
+    if(jQuery(".path-node")){
+        jQuery("#navbar").sticky({ topSpacing: 0 });
+        jQuery('#navbar').on('sticky-start', function() {
+            jQuery('.brand-text').html(jQuery('.node-title').html()).addClass('node-head-text');
+        });
+        jQuery('#navbar').on('sticky-end', function() {
+            jQuery('.brand-text').html('Más Música Banda').removeClass('node-head-text');
+        });
+    }
+
 });
