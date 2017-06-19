@@ -109,8 +109,12 @@
     .text-md-center { text-align: center; }
     .text-md-justify { text-align: justify; }
 
+    .container {
+        width: 1010px;
+    }
+
     section.col-sm-8{
-        width: 704px !important;
+        width: 700px !important;
     }
 
     .sidebar-second{

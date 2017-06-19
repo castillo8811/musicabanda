@@ -14,11 +14,12 @@
     background: url(../images/textura.png) repeat;
     padding: 0 2px 0 2px !important;
 }
+.navbar.container {
+    max-width: 100% !important;
+}
 
 .navbar-brand {
     padding: 5px 5px;
-!important;
-
 }
 
 .navbar-brand img {
@@ -49,7 +50,7 @@
 
 .navbar-header .brand-text {
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.3rem !important;
     padding: 10px 10px 0px 12px;
     display: inline-block;
     width: 35%;

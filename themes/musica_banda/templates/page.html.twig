@@ -160,7 +160,7 @@
           page.sidebar_first and page.sidebar_second ? 'col-sm-6',
           page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',
           page.sidebar_second and page.sidebar_first is empty ? 'col-sm-8',
-          page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-12'
+          page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-8'
         ]
       %}
       <div id="page-content">
@@ -196,7 +196,7 @@
         {# Sidebar Second #}
         {% if page.sidebar_second %}
           {% block sidebar_second %}
-            <aside class="sidebar-second col-lg-4 hidden-xs hidden-sm" role="complementary">
+            <aside class="sidebar-second col-sm-4 hidden-xs" role="complementary">
               {{ page.sidebar_second }}
             </aside>
           {% endblock %}
