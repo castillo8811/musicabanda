@@ -204,6 +204,11 @@ em, i {font-style: italic !important;}
     width: 100%;
 }
 
+.super_banner{
+    max-width: 720px;
+    height: 90px;
+}
+
 .nodeListItem{
     cursor: pointer;
 }
@@ -239,4 +244,8 @@ em, i {font-style: italic !important;}
 
 .alert{
     margin: 10px 0 0 0 !important;
+}
+
+#newsletter-subscription .banner, #more-news .banner{
+    max-height: 250px !important;
 }
