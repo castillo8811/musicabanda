@@ -135,5 +135,6 @@
 
     #newsletter-subscription .banner{
         height: 250px !important;
+        overflow: hidden;
     }
 }
