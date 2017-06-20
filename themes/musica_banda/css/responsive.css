@@ -148,6 +148,10 @@
     .nodeListItem:last-child{
         display: none;
     }
+
+    .page-node .brand-text {
+        display: none;
+    }
 }
 
 @media (min-width: 992px) {
