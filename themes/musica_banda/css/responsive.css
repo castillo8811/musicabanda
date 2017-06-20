@@ -126,11 +126,37 @@
         width: 80%;
         font-size: 1.3rem;
     }
-
-    #bios .nodeListItem:last-child{
-        display: none;
+    
+    .footer-spotify-inner {
+        width: 95%;
     }
 
+    #footer-social ul {
+        width: 50%;
+    }
+
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    #footer-brand-inner {
+        width: 57%;
+        margin: 0 auto;
+    }
+
+    .footer-spotify-inner {
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    #footer-social ul {
+        width: 50%;
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+    .nodeListItem:last-child{
+        display: none;
+    }
 }
 
 @media (min-width: 992px) {
