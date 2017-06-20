@@ -127,7 +127,7 @@
         font-size: 1.3rem;
     }
 
-    .nodeListItem:last-child{
+    #bios .nodeListItem:last-child{
         display: none;
     }
 
