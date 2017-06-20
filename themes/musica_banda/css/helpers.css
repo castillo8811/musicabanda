@@ -247,5 +247,5 @@ em, i {font-style: italic !important;}
 }
 
 #newsletter-subscription .banner, #more-news .banner{
-    max-height: 250px !important;
+    height: 250px !important;
 }
