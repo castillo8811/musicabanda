@@ -518,3 +518,8 @@
     margin-right: 0 !important;
     padding: 0 !important;
 }
+
+#newsletter-subscription .banner{
+    max-height: 250px !important;
+    overflow: hidden;
+}

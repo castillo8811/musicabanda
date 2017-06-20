@@ -101,6 +101,36 @@
     .text-sm-right { text-align: right; }
     .text-sm-center { text-align: center; }
     .text-sm-justify { text-align: justify; }
+
+    .nodeListItem {
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    .newsletter-logo {
+        width: 30%;
+        display: inline-block;
+    }
+
+    .newsletter-title {
+        width: 65%;
+        font-size: 1.6rem;
+    }
+
+    #mailchimp-signup-subscribe-block-mmb-mc-form input[type="email"] {
+        width: 80%;
+        font-size: 1.6rem;
+    }
+
+    #mailchimp-signup-subscribe-block-mmb-mc-form .form-submit {
+        width: 80%;
+        font-size: 1.3rem;
+    }
+
+    .nodeListItem:last-child{
+        display: none;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -131,10 +161,5 @@
     .container {
         max-width: 1024px !important;
         width: 1024px !important;
-    }
-
-    #newsletter-subscription .banner{
-        height: 250px !important;
-        overflow: hidden;
     }
 }
