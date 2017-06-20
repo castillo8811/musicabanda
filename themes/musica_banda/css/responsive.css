@@ -132,4 +132,8 @@
         max-width: 1024px !important;
         width: 1024px !important;
     }
+
+    #newsletter-subscription .banner, #more-news .banner{
+        height: 250px ;
+    }
 }
